@@ -1,5 +1,4 @@
-class Operators 
-{
+public class operators{
     public static void main(String a[])
     {   
         
@@ -45,6 +44,8 @@ class Operators
 
         int result1 = ++num; //increment then fetch the value
         int result2 = num++; //fetch the value then increment
+        System.out.println(result1);
+        System.out.println(result2);
     }    
  
 }
