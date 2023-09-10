@@ -8,14 +8,14 @@ class Num
         // to print a new line use println()
         System.out.println(num1 + num2);
 
-        //or
+        // or
         int result = num1 + num2;
         System.out.println(result);
     }
 
         // integer
         int i = 7;
-        byte by = 127; // by = 129; will not work since it's out of range
+        byte by = 127; // by = 129; ---> will not work since it's out of range
         short sh = 558;
         long ln = 5854l;
 
@@ -28,6 +28,5 @@ class Num
 
         // boolean
         boolean b = true;
-
- 
+        
 }

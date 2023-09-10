@@ -5,6 +5,6 @@ class ternary{
         boolean result;
 
         result = (x % 2 == 0) ? true : false;
-        System.out.println((result));
+        System.out.println((result)); // Output: false
     }
 }
