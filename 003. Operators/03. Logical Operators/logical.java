@@ -1,4 +1,3 @@
-
 public class logical {
     public static void main(String a[])
     {
@@ -6,6 +5,9 @@ public class logical {
         int q = 6;
         int r = 7;
         int s = 8;
+
+        // Logical operators 
+        // && --> AND, || --> OR, ! --> NOT
 
         boolean result1 = p<q && r>s;
         System.out.println((result1));

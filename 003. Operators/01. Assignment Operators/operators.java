@@ -25,27 +25,36 @@ public class operators{
         int mod = num1 / num2;
         System.out.println(mod);
 
-        // we can also directly write it as
-        // int num = 2;
-        // num += 2; // also work for other operations
-        // System.out.println(num);
+        // We can also directly write it as
+        int num3 = 2;
+        num3 += 2; // Also work for other operations
+        System.out.println(num3);// Output: 4
 
-        //we can increment like this
+        // Increment - Decrement
 
-        int num = 2;
-        num++; //post increment
-        num--; //decrement
+        int n = 2;
+        n++; // Post increment
+        n--; // Post decrement
+        ++n; // Pre increment
+        --n; // Pre decrement
 
-        ++num; // pre increment
+        System.out.println(n);
 
-        System.out.println(num);
+        // Post increment/decrement and Pre increment/decrement respectively behaves differently while assigning values
 
-        // post increment and pre increment behaves differently while assigning  values
+        int num = 9;
+        int result1 = ++num; 
+        System.out.println(result1); // Output: 10 ---> increment then fetch the value
 
-        int result1 = ++num; //increment then fetch the value
-        int result2 = num++; //fetch the value then increment
-        System.out.println(result1);
-        System.out.println(result2);
+        int result2 = num++; 
+        System.out.println(result2); // Output: 9 ---> fetch the value then increment
+
+        int result3 = --num; 
+        System.out.println(result3); // Output: 8 ---> decrement then fetch the value
+
+        int result4 = num--;
+        System.out.println(result4); // Output: 9 ---> fetch the value then decrement
+
     }    
  
 }
