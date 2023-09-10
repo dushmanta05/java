@@ -11,20 +11,21 @@ public class conversion {
         System.out.println(i); // Output; 127
         
         // Assigning int to byte
-        // b = i; // but this here will not work because we can't convert byte to int
+        /* b = i; // but this here will not work because we can't convert byte to int
 
-        // but we can cast them 
-        // Type casting
-        // b = (byte)i; // this is known as type casting
-        // System.out.println(b); // Output: 0
+        but we can cast them 
+        Type casting
+        b = (byte)i; // this is known as type casting
+        System.out.println(b); // Output: 0
 
-        // float f = 5.6f;
-        // int x = (int)f;
-        // System.out.println(x); // Output: 5
+        float f = 5.6f;
+        int x = (int)f;
+        System.out.println(x); // Output: 5
 
-        // int i = 257;
-        // byte t = (byte)i;
-        // System.out.println(t); // will print 1 because it take modulous operator while type casting here i % 256 (range) is giving the results. (For mode details read the .md file)
+        int i = 257;
+        byte t = (byte)i;
+        System.out.println(t); // will print 1 because it take modulous operator while type casting here i % 256 (range) is giving the results. (For mode details read the .md file)
+        */
 
         // Type Promotion
         byte p = 10;
